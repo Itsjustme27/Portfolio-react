@@ -1,7 +1,8 @@
 .footer-container  {
     padding: 20px 0;
     border-top: 1px solid rgba(220, 218, 215, 0.1);
-    background: #000000;
+    background-color: #151c22;
+    z-index: 100;
 }
 
 a {
@@ -11,6 +12,10 @@ a {
 
 .copy {
     margin: 0 0 0 5rem;
+}
+
+.social-icons {
+    margin: 0 0 0 30rem;
 }
 
 

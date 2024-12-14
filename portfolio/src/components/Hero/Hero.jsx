@@ -1,6 +1,7 @@
 import './hero.css';
-import React, { useState, useEffect } from 'react';
+// import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
+import linkedinpic from '../../assets/linkedin.png'
 
 export default function Hero() {
     // const texts = ["Prayush Hada", "Student", "Developer", "Security Researcher", "CTF Player"];
@@ -46,11 +47,11 @@ export default function Hero() {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-log-10">
-                                <h5 className="wow fadeInUp animated">
+                                <h5 className="welcome wow fadeInUp animated">
                                     Welcome
                                 </h5>
                                 <div className="spacer-10"></div>
-                                <div className="text-changer h1_big">
+                                <div className="text-changer h1_big fadeInup animated">
                                     <span>I'm {''}</span><br />
                                     <div className="dynamic-text">
                                         <TypeAnimation
@@ -67,7 +68,7 @@ export default function Hero() {
                                         />
                                     </div>
                                 </div>
-                                <p className="lead wow">
+                                <p className="lead wow fadeInUp animated">
                                     An IT enthusiast studying in Nepal
                                 </p>
                             </div>
@@ -80,8 +81,13 @@ export default function Hero() {
                                 +977-9841281920
                                 <div className="spacer-single"></div>
                                 <div className="social-icons">
-                                    <a href="www.linkedin.com">
-                                        <i className="fa fa-linkedin fa-lag" style={{ fontSize: "24px" }}></i>
+                                    <a href="https://www.linkedin.com/in/prayush-hada-6b0357277/">
+                                        <i className="fa-brands fa-linkedin" style={{ fontSize: "30px", color: "#0077B5", marginRight: "10px" }}>
+                                        </i>
+                                    </a>
+                                    <a href="https://github.com/Itsjustme27">
+                                        <i className="fa-brands fa-github" style={{ fontSize: "30px", color: "#0077B5" }}>
+                                        </i>
                                     </a>
                                 </div>
                             </div>

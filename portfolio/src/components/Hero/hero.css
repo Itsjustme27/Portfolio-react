@@ -17,6 +17,14 @@
     }
 }
 
+.fadeInUp {
+    animation: fadeInUp;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
 
 
 .v-center {
@@ -94,3 +102,11 @@
 h6 {
     color: white;
 }
+
+.welcome {
+    background-color: #ffffff33;
+    border-radius: 250px;
+    font-size: small;
+}
+
+
