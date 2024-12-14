@@ -1,0 +1,6 @@
+@import url(https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css);
+
+* {
+  font-family:Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,16 @@
+.title {
+    margin-left: 5rem;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.nav-items {
+    margin: 0 0 0 20rem;
+    font-weight: bolder;
+}
