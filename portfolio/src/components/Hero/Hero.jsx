@@ -80,7 +80,7 @@ export default function Hero() {
                                 <br />
                                 +977-9841281920
                                 <div className="spacer-single"></div>
-                                <div className="social-icons">
+                                <div className="social-icons-hero">
                                     <a href="https://www.linkedin.com/in/prayush-hada-6b0357277/">
                                         <i className="fa-brands fa-linkedin" style={{ fontSize: "30px", color: "#0077B5", marginRight: "10px" }}>
                                         </i>
