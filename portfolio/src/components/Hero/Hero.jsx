@@ -1,7 +1,7 @@
 import './hero.css';
 // import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import linkedinpic from '../../assets/linkedin.png'
+
 
 export default function Hero() {
     // const texts = ["Prayush Hada", "Student", "Developer", "Security Researcher", "CTF Player"];
